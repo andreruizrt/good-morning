@@ -10,6 +10,7 @@ import {
   Stack,
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
+import { Hero } from '../Hero';
 
 const Links = ['Bom dia!', 'Boa noite!', 'Aniversário'];
 
@@ -42,7 +43,7 @@ export default function Simple() {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={'center'}>
-            <Box>Mensagens de BOM DIA!</Box>
+            <Hero />
             <HStack
               as={'nav'}
               spacing={4}

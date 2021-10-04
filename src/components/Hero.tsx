@@ -1,5 +1,6 @@
 import { Flex, Heading } from '@chakra-ui/react'
 
+// HOW TO MAKE A LINEAR GRADIENT
 export const Hero = ({ title }: { title: string }) => (
   <Flex
     justifyContent="center"
@@ -8,10 +9,10 @@ export const Hero = ({ title }: { title: string }) => (
     bgGradient="linear(to-l, #7928CA, #FF0080)"
     bgClip="text"
   >
-    <Heading fontSize="6vw">{title}</Heading>
+    <Heading fontSize="1.2vw">{title}</Heading>
   </Flex>
 )
 
 Hero.defaultProps = {
-  title: 'with-chakra-ui-typescript',
+  title: 'Mensagens de BOM DIA!',
 }

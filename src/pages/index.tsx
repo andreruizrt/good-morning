@@ -2,9 +2,9 @@ import {
   Box,
   Text
 } from '@chakra-ui/react'
-import NavBar from '../components/NavBar'
-import NavMenu from '../components/NavMenu';
+import NavBar from '../components/Nav/NavBar'
 import Card from '../components/Cards/Card';
+import { ImageFull } from '../components/Image/ImageFull';
 import ImageCard from '../components/Cards/ImageCard';
 import mensagens from '../data/mensagens.json'
 
@@ -31,13 +31,14 @@ const Index = () => {
       <Card tipo={"Bom dia!"} titulo={"Que seu dia seja abençoado."} message={messagem3.message} />
       <Card tipo={"Bom dia!"} titulo={"Deus me preparou uma vez mais um dia abençoado! 😊🙏"} message={messagem4.message} />
       <Card tipo={"Bom dia!"} titulo={"DEUS abençoe esse novo dia, que seja de vitórias e conquistas! 😻🙏"} message={messagem5.message} />
-      <ImageCard 
+      {/* <ImageCard 
         tipo={"Bom dia!"}
         title={"Paz e amor S2"}
         message={messagem6.message}
         autor={"Desconhecido"}
         date={"Out 2, 2021"}
-      />
+      /> */}
+      <ImageFull />
     </Box>
   );
 }

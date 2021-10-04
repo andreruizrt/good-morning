@@ -1,4 +1,7 @@
-import { Button, Box } from "@chakra-ui/react";
+import { 
+  Button,
+  Box
+} from "@chakra-ui/react";
 import Link from 'next/link'
 
 interface ButtonProps {

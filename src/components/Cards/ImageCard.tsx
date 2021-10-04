@@ -31,7 +31,7 @@ const ImageCard = (prop: cardProps) => {
         p={6}
         overflow={'hidden'}>
         <Box
-          h={'210px'}
+          h={'400px'}
           bg={'gray.100'}
           mt={-6}
           mx={-6}
@@ -39,7 +39,7 @@ const ImageCard = (prop: cardProps) => {
           pos={'relative'}>
             <Image
               src={Bomdia}
-              layout={'responsive'}
+              layout={'fill'}
             />
         </Box>
         <Stack>
