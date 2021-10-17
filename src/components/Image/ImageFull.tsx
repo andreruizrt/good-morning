@@ -2,7 +2,6 @@ import React from "react";
 import { Box , useColorModeValue} from '@chakra-ui/react'
 import Image from 'next/image';
 
-
 export const ImageFull = (prop: {src: string}) => {
   return (
     <Box

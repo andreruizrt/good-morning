@@ -38,7 +38,7 @@ const Index = () => {
         autor={"Desconhecido"}
         date={"Out 2, 2021"}
       /> */}
-      <ImageFull />
+      {/* <ImageFull /> */}
     </Box>
   );
 }
